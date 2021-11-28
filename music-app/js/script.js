@@ -24,7 +24,7 @@ function loadMusic(indexNumb){
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
   musicImg.src = `https://github.com/ndhoangofficial/cdn/raw/main/music-app/images/${allMusic[indexNumb - 1].src}.jpg`;
-  mainAudio.src = `https://github.com/ndhoangofficial/cdn/raw/main/music-app/songs/${allMusic[indexNumb - 1].src}.mp3`;
+  mainAudio.src = `https://github.com/ndhoangofficial/cdn/raw/main/music-app/songs/music-1.mp3`;
 }
 
 //play music function
